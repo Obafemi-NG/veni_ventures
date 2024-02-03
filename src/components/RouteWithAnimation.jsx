@@ -8,6 +8,7 @@ import Faq from "../pages/faq";
 import Testimonials from "../pages/testimonials";
 import Blog from "../pages/blog";
 import Community from "../pages/Community";
+import ContactUs from "../pages/ContactUs";
 
 const RouteWithAnimation = () => {
   const location = useLocation();
@@ -21,6 +22,7 @@ const RouteWithAnimation = () => {
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/community" element={<Community />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </AnimatePresence>
   );

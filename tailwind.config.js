@@ -31,6 +31,7 @@ module.exports = {
         "plans-bg-img": 'url("/src/assets/images/plans_bg_img.png")',
         "contact-section_bg_img":
           'url("/src/assets/images/happy_to_connect_img.png")',
+        community_bg_img: 'url("/src/assets/images/community_bg_img.png")',
       },
     },
   },

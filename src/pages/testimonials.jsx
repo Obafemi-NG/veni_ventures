@@ -3,8 +3,8 @@ import ModifiedNavbar from "../components/ModifiedNavbar";
 
 const Testimonials = () => {
   return (
-    <div className=" h-[100vh] ">
-      <ModifiedNavbar />
+    <div className=" h-[100vh]  ">
+      <ModifiedNavbar pageTitle="Testimonials" />
     </div>
   );
 };

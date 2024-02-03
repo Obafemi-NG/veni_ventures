@@ -3,7 +3,7 @@ import ModifiedNavbar from "../components/ModifiedNavbar";
 
 const Blog = () => {
   return (
-    <div>
+    <div className=" h-[100vh] ">
       <ModifiedNavbar pageTitle="Blogs" />
     </div>
   );

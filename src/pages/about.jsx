@@ -6,13 +6,14 @@ import blendImage from "../assets/icons/blend-image.svg";
 
 const About = () => {
   return (
-    <div className="h-full w-full relative ">
+    <div className=" h-[100vh]  relative ">
       <img
         src={blendImage}
         alt="blend_image"
-        className=" absolute bottom-[12rem]"
+        className=" absolute top-[28rem]"
       />
       <ModifiedNavbar pageTitle="About Us" />
+
       <div className=" max-w-[1200px] m-auto flex flex-col items-center p-[5rem] ">
         <h1 className=" font-lexendDeca text-[2.5rem] font-[600] text-dark-blue mb-[2.5rem] ">
           {" "}

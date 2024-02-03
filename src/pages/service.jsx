@@ -8,7 +8,7 @@ import Contact from "../sections/Contact";
 
 const Service = () => {
   return (
-    <div>
+    <div className=" h-[100vh] ">
       <ModifiedNavbar pageTitle="Services" />
       <MembershipPlan />
       <AccountMgt />
