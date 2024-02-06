@@ -3,7 +3,7 @@ import React from "react";
 const FeedbackCard = ({ id, imgUrl, text }) => {
   return (
     <div
-      className={`backdrop-filter-[blur(21.928443908691406px)] bg-backdrop-white min-w-[30rem] h-[17rem] rounded-[1rem] p-[0.67rem] `}
+      className={`backdrop-filter-[blur(21.928443908691406px)] bg-backdrop-white min-w-[30rem] h-[17rem] rounded-[1rem] p-[0.67rem]  `}
     >
       <div
         className={`w-full h-full ${

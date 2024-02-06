@@ -10,7 +10,7 @@ const Plans = () => {
         {" "}
         We Have a Plan for You{" "}
       </h1>
-      <div className=" flex items-center text-white gap-[5rem] text-[1.5rem] font-lexend text-[500] my-[6.2rem] ">
+      <div className="max-[480px]:flex-col flex items-center text-white gap-[5rem] text-[1.5rem] font-lexend text-[500] my-[6.2rem] ">
         <div className=" text-right flex flex-col gap-y-[3rem] ">
           <p> Precise Trading Signals </p>
           <p> Real-Time Trade Alerts </p>

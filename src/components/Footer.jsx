@@ -13,7 +13,7 @@ import pinterest from "../assets/icons/pinterest.svg";
 const Footer = () => {
   return (
     <div className=" bg-footer-bg pt-[2rem] pb-[2.8rem] ">
-      <div className=" max-w-[1200px] border-t border-gray m-auto flex items-center justify-between pt-[1rem] ">
+      <div className=" max-w-[1200px] border-t border-gray m-auto flex items-center justify-between pt-[1rem] max-[480px]:flex-col ">
         <img src={logo} alt="logo" className=" w-[7rem] " />
         <div className="flex items-center ">
           <div className=" text-white flex gap-x-[1.1rem] mr-[1.2rem] ">

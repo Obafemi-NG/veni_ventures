@@ -9,6 +9,7 @@ import Testimonials from "../pages/testimonials";
 import Blog from "../pages/blog";
 import Community from "../pages/Community";
 import ContactUs from "../pages/ContactUs";
+import SingleBlog from "../pages/SingleBlog";
 
 const RouteWithAnimation = () => {
   const location = useLocation();
@@ -21,6 +22,7 @@ const RouteWithAnimation = () => {
         <Route path="/faq" element={<Faq />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<SingleBlog />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>

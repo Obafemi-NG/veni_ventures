@@ -5,8 +5,11 @@ import logo from "../assets/icons/logo.svg";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div className="px-[2rem] w-[100%] max-w-[1200px] mx-auto bg-[#ffffff0a] rounded-[0.625rem] border border-[#ffffff17] flex justify-between items-center ">
-      <div className=" cursor-pointer py-[1rem]" onClick={() => navigate("/")}>
+    <div className="max-[480px]:px-[1rem] px-[2rem] w-[100%] max-w-[1200px] mx-auto bg-[#ffffff0a] rounded-[0.625rem] border border-[#ffffff17] flex justify-between items-center ">
+      <div
+        className=" cursor-pointer py-[1rem] max-[480px]:w-[8rem]"
+        onClick={() => navigate("/")}
+      >
         <img
           //   className=" max-[480px]:w-15 w-12 p-2"
           src={logo}
@@ -14,7 +17,7 @@ const Navbar = () => {
           // className=" w-full "
         />
       </div>
-      <ul className="flex gap-x-[5rem] font-inter text-white h-full items-center">
+      <ul className=" max-[480px]:hidden flex gap-x-[5rem] font-inter text-white h-full items-center  ">
         <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center  ">
           <NavLink
             to="/about-us"

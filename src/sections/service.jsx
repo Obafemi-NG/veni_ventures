@@ -16,21 +16,21 @@ const Service = () => {
         "We integrate in-depth analysis with a comprehensive strategic perspective of the market to craft our signals with precision. Enhance your trades with a remarkable 90% success rate.",
     },
     {
-      id: 1,
+      id: 2,
       imgUrl: fluent_icon,
       title: "Insight into Foresight",
       paragraph:
         "Our cutting-edge analysis protocols decipher market trends, offering you a panoramic view of lucrative opportunities and potential pitfalls.",
     },
     {
-      id: 1,
+      id: 3,
       imgUrl: analysis_icon,
       title: "Custom Deep Analysis",
       paragraph:
         "Our expert team will delve into the intricacies of your chosen asset, providing you with a bespoke analysis designed to meet your unique investment goals.",
     },
     {
-      id: 1,
+      id: 4,
       imgUrl: community_icon,
       title: "Community",
       paragraph:
@@ -38,11 +38,11 @@ const Service = () => {
     },
   ];
   return (
-    <section className=" py-[4.5rem] max-w-[1200px] m-auto ">
-      <h1 className=" font-lexend text-[2.5rem] font-[500] ">
+    <section className=" py-[4.5rem] max-w-[1200px] m-auto max-[480px]:px-3 max-[480px]:py-[3rem] ">
+      <h1 className=" font-lexend text-[2.5rem] font-[500] max-[480px]:text-[1.4rem] ">
         Empowering Your Every Trade
       </h1>
-      <div className=" flex gap-x-[3rem] border-t mt-[4rem] border-[gray] ">
+      <div className=" flex gap-x-[3rem] border-t mt-[4rem] border-[gray] max-[480px]:flex-wrap max-[480px]:mt-[2rem] max-[480px]:border-l max-[480px]:border-t-0  max-[480px]:gap-y-[2rem] ">
         {serviceData.map((data) => {
           return (
             <ServiceCard
