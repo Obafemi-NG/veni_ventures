@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "vedi_blog"
+  },
+  "api": {
+    "projectId": "sflj469b",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
