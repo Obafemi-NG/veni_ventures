@@ -21,8 +21,8 @@ const Blog = () => {
   return (
     <div className=" h-[100vh] ">
       <ModifiedNavbar pageTitle="Blogs" />
-      <div className=" max-w-[1200px] mx-auto py-[3rem] pl-[1.2rem] ">
-        <h1 className=" text-[2.5rem] font-lexendDeca font-[500] px-[1rem] border-l-[0.3rem] border-l-light-blue ">
+      <div className=" max-w-[1200px] mx-auto py-[3rem] pl-[1.2rem] max-[480px]:px-4 ">
+        <h1 className=" text-[2.5rem] font-lexendDeca font-[500] px-[1rem] border-l-[0.3rem] border-l-light-blue max-[480px]:text-[1.75rem]">
           {" "}
           Categories{" "}
         </h1>
@@ -32,7 +32,7 @@ const Blog = () => {
               return (
                 <div
                   key={post.slug.current}
-                  className=" w-[30%] rounded-[1rem] bg-[#f8f8f8] pb-[1.4rem] "
+                  className=" w-[30%] rounded-[1rem] bg-[#f8f8f8] pb-[1.4rem] max-[480px]:w-full "
                 >
                   <div className=" w-[100%] h-[18rem] object-cover object-center ">
                     <img

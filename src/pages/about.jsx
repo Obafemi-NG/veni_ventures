@@ -10,19 +10,19 @@ const About = () => {
       <img
         src={blendImage}
         alt="blend_image"
-        className=" absolute top-[28rem]"
+        className=" absolute top-[28rem] max-[480px]:hidden "
       />
       <ModifiedNavbar pageTitle="About Us" />
 
-      <div className=" max-w-[1200px] m-auto flex flex-col items-center p-[5rem] ">
-        <h1 className=" font-lexendDeca text-[2.5rem] font-[600] text-dark-blue mb-[2.5rem] ">
+      <div className=" max-w-[1200px] m-auto flex flex-col items-center p-[5rem] max-[480px]:px-4 ">
+        <h1 className=" font-lexendDeca text-[2.5rem] font-[600] text-dark-blue mb-[2.5rem] max-[480px]:text-[2rem] max-[480px]:font-[500] ">
           {" "}
           Welcome to{" "}
           <span className=" text-light-blue ">
             Veni Discere Investments
           </span>{" "}
         </h1>
-        <p className=" text-text-gray text-center w-[90%] leading-[180%]">
+        <p className=" text-text-gray text-center w-[90%] leading-[180%] max-[480px]:text-left max-[480px]:w-full">
           {" "}
           Where "I came to learn" is not just a name but a philosophy ingrained
           in our ethos. Knowledge, community, and superintendence form the
@@ -37,7 +37,7 @@ const About = () => {
           building a robust community, aimed at widening the knowledge of mass
           retail and awakening those determined to succeed.
         </p>
-        <p className="text-text-gray text-center w-[90%] leading-[180%]">
+        <p className="text-text-gray text-center w-[90%] leading-[180%] max-[480px]:text-left max-[480px]:w-full ">
           Internationally diverse, our research group spans from Singapore to
           London, delivering precise signals, actionable insights, and account
           management services. Committed to continuous innovation, Veni Discere
@@ -51,7 +51,7 @@ const About = () => {
         </p>
         <div className=" mt-[1rem] flex flex-col items-center gap-y-[2.8rem] ">
           <div>
-            <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem]">
+            <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem] max-[480px]:text-[2rem] max-[480px]:font-[500] max-[480px]:mb-[0.5rem] ">
               {" "}
               Our Promise{" "}
             </h1>
@@ -60,8 +60,8 @@ const About = () => {
               We convert insight into foresight.{" "}
             </p>
           </div>
-          <div className=" w-[50%] ">
-            <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem]">
+          <div className=" w-[50%] max-[480px]:w-[90%] ">
+            <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem] max-[480px]:text-[2rem] max-[480px]:font-[500] max-[480px]:mb-[0.5rem]">
               {" "}
               Our Mission{" "}
             </h1>
@@ -70,8 +70,8 @@ const About = () => {
               navigation for financial success.
             </p>
           </div>
-          <div className=" w-[45%] ">
-            <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem]">
+          <div className=" w-[45%] max-[480px]:w-[100%]">
+            <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem] max-[480px]:text-[2rem] max-[480px]:font-[500] max-[480px]:mb-[0.5rem]">
               {" "}
               Vision{" "}
             </h1>

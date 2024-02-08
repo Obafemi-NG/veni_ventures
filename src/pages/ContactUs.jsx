@@ -9,7 +9,7 @@ const ContactUs = () => {
     <div className=" h-[100vh] relative ">
       <ModifiedNavbar pageTitle="Contact Us" starNeeded={true} />
       <div className=" max-w-[1200px] mx-auto flex justify-center mt-[-2rem]  ">
-        <div className=" bg-dark-blue w-[80%] py-[2rem] flex flex-col items-center ">
+        <div className=" bg-dark-blue w-[80%] py-[2rem] flex flex-col items-center max-[480px]:w-full max-[480px]:h-[80vh] ">
           <h1 className=" font-lexendDeca text-light-blue text-[2.2rem] font-[600]  ">
             {" "}
             Get in touch with us{" "}
@@ -20,19 +20,19 @@ const ContactUs = () => {
             will contact you shortly.{" "}
           </p>
           <form
-            className=" w-[70%] mt-[1rem] flex flex-col gap-[1.2rem] "
+            className=" w-[70%] mt-[1rem] flex flex-col gap-[1.2rem] max-[480px]:w-[80%] "
             action=""
           >
-            <div className=" w-full  flex justify-between  ">
+            <div className=" w-full  flex justify-between max-[480px]:flex-col max-[480px]:gap-y-[1.2rem] ">
               <input
                 type="text"
                 placeholder="Name:"
-                className=" w-[45%] py-[0.6rem] px-[0.8rem] outline-none "
+                className=" w-[45%] py-[0.6rem] px-[0.8rem] outline-none max-[480px]:w-full "
               />
               <input
                 type="text"
                 placeholder="Phone No: "
-                className=" w-[45%] py-[0.6rem] px-[0.8rem] outline-none "
+                className=" w-[45%] py-[0.6rem] px-[0.8rem] outline-none max-[480px]:w-full "
               />
             </div>
             <input
@@ -56,7 +56,7 @@ const ContactUs = () => {
       <img
         src={vector}
         alt="contact-vector"
-        className=" absolute bottom-[-6rem] 2xl:bottom-0 right-0 "
+        className=" absolute bottom-[-6rem] 2xl:bottom-0 right-0 max-[480px]:hidden "
       />
     </div>
   );

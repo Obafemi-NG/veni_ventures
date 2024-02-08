@@ -42,14 +42,14 @@ const Feedback = () => {
   ];
   return (
     <div className="relative">
-      <div className="pt-[4.5rem] pb-[9rem] max-w-[1200px] m-auto ">
-        <h1 className=" font-lexend text-[2.5rem] font-[500] ">
+      <div className="pt-[4.5rem] pb-[9rem] max-w-[1200px] m-auto pl-3 max-[480px]:pt-[3rem] max-[480px]:pb-[4rem] ">
+        <h1 className=" font-lexend text-[2.5rem] font-[500] max-[480px]:text-center max-[480px]:text-[1.6rem] ">
           {" "}
           What Our Clients Say{" "}
         </h1>
         <div
           onWheel={handleScroll}
-          className=" mt-[5rem] mb-[2.5rem] flex flex-nowrap overflow-x-scroll gap-[1rem] no-scrollbar "
+          className=" mt-[5rem] mb-[2.5rem] flex flex-nowrap overflow-x-scroll gap-[1rem] no-scrollbar max-[480px]:mt-[2.5rem] max-[480px]:z-10  "
         >
           {dummyData.map((data) => {
             return (

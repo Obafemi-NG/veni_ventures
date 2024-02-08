@@ -13,14 +13,14 @@ import { Link } from "react-router-dom";
 const Community = () => {
   return (
     <div className=" h-[100vh]  bg-community_bg_img bg-cover bg-center  ">
-      <div className="h-full w-full bg-[#020F25]/80 backdrop-brightness-75 py-[3rem] flex flex-col items-start ">
+      <div className="h-full w-full bg-[#020F25]/80 backdrop-brightness-75 py-[3rem] flex flex-col items-start max-[480px]:px-4 max-[480px]:pt-[1.4rem]">
         <Navbar />
         <div className=" max-w-[1200px] m-auto flex flex-col items-center ">
-          <h1 className="font-lexendDeca text-[4rem] font-[600] text-white mb-[2rem]">
+          <h1 className="font-lexendDeca text-[4rem] font-[600] text-white mb-[2rem] max-[480px]:text-[2.4rem] max-[480px]:text-center ">
             {" "}
             Join the VDI Community{" "}
           </h1>
-          <p className=" text-white w-[60%] text-center text-[1.1rem] mb-[2rem] ">
+          <p className=" text-white w-[60%] text-center text-[1.1rem] mb-[2rem] max-[480px]:w-[90%] max-[480px]:leading-[2rem] ">
             {" "}
             Join a dynamic network of like-minded individuals. Engage in
             collaborative learning, stay informed with real-time updates, and

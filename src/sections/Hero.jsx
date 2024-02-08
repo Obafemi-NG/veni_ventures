@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import hero_image from "../assets/images/hero_img.png";
 import CustomOutlinedBtn from "../components/UiComponents/CustomOutlinedBtn";
+import heroLineSvg from "../assets/icons/hero_line_svg.svg";
 
 const Hero = () => {
   return (
@@ -13,15 +14,13 @@ const Hero = () => {
         <div className="h-[100%] w-full max-w-[1200px] m-auto px-3 ">
           <div className=" translate-y-[10%] 2xl:translate-y-[50%] top-[-50%]  flex flex-row items-center max-[480px]:flex-col max-[480px]:gap-y[3rem] ">
             <div className=" max-[480px]:mb-[2rem]  ">
-              <h1 className="max-[480px]:text-[2.75rem] max-[480px]:w-[100%] font-sora text-[5.3rem] font-[600] w-[70%] text-white ">
+              <img src={heroLineSvg} alt="hero_line_svg" />
+              <h1 className="max-[480px]:text-[2.75rem] max-[480px]:w-[90%] font-sora text-[5.3rem] font-[600] w-[70%] text-white ">
                 {" "}
                 Money Talks, We{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-b from-gradient-light-blue to-gradient-dark-blue ">
-                  {" "}
-                  Translate
-                </span>{" "}
+                <span className="gradient-text"> Translate</span>{" "}
               </h1>
-              <p className=" w-[60%] text-white font-sora mb-[2rem] max-[480px]:w-[90%] max-[480px]:text-[0.83rem] max-[480px]:mb-[1rem]  ">
+              <p className=" w-[60%] text-white font-sora mb-[2rem] max-[480px]:w-[90%] max-[480px]:text-[0.83rem] max-[480px]:mb-[1rem] max-[480px]:mt-[1.1rem] ">
                 Consistently precise crypto signals, analysis and strategies. We
                 don't compete against the whales; we join them, providing you
                 with a gateway to walk alongside market leaders.  

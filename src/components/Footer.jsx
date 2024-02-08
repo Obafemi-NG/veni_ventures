@@ -13,13 +13,17 @@ import pinterest from "../assets/icons/pinterest.svg";
 const Footer = () => {
   return (
     <div className=" bg-footer-bg pt-[2rem] pb-[2.8rem] ">
-      <div className=" max-w-[1200px] border-t border-gray m-auto flex items-center justify-between pt-[1rem] max-[480px]:flex-col ">
-        <img src={logo} alt="logo" className=" w-[7rem] " />
-        <div className="flex items-center ">
-          <div className=" text-white flex gap-x-[1.1rem] mr-[1.2rem] ">
+      <div className=" max-w-[1200px] border-t border-gray m-auto flex items-center justify-between pt-[1rem] max-[480px]:flex-col max-[480px]:mx-3 ">
+        <img
+          src={logo}
+          alt="logo"
+          className=" w-[7rem] max-[480px]:self-start "
+        />
+        <div className="flex items-center max-[480px]:flex-col ">
+          <div className=" text-white flex gap-x-[1.1rem] mr-[1.2rem] max-[480px]:text-[0.8rem]  max-[480px]:self-start max-[480px]:my-[1rem] max-[480px]:gap-y-[0.6rem]  ">
             <p> © All Rights Reserved 2024 | Veni Discere Investment</p>
             <span>|</span>
-            <p>
+            <p className=" max-[480px]:text-[1rem] ">
               <Link to="/faq">FAQs</Link>
             </p>
           </div>

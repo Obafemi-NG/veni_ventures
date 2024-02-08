@@ -3,12 +3,12 @@ import React from "react";
 const FeedbackCard = ({ id, imgUrl, text }) => {
   return (
     <div
-      className={`backdrop-filter-[blur(21.928443908691406px)] bg-backdrop-white min-w-[30rem] h-[17rem] rounded-[1rem] p-[0.67rem]  `}
+      className={`backdrop-filter-[blur(21.928443908691406px)] bg-backdrop-white min-w-[30rem] h-[17rem] rounded-[1rem] p-[0.67rem] max-[480px]:h-fit max-[480px]:min-w-[80%]  `}
     >
       <div
         className={`w-full h-full ${
           id === 1 || id % 2 !== 0 ? `bg-white` : `bg-light-blue`
-        } rounded-[0.73rem] py-[1.7rem] px-[2rem] `}
+        } rounded-[0.73rem] py-[1.7rem] px-[2rem] max-[480px]:p-[1rem] `}
       >
         <div className=" flex items-center gap-x-[1.3rem] mb-[2rem] ">
           <img src={imgUrl} alt="client_img" />

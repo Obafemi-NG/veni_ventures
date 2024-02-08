@@ -34,13 +34,13 @@ const MembershipPlan = () => {
     },
     {
       id: 7,
-      text: "Unlock custom deep analysis for a tailored investment approach at $150",
+      text: "Unlock custom deep analysis for a tailored investment approach at $99",
     },
   ];
   return (
-    <div className=" py-[6rem] max-w-[1200px] m-auto flex ">
-      <div className=" w-[55%] ">
-        <h1 className=" font-lexendDeca text-[4rem] font-[600] leading-[4.6rem] text-very-dark-blue ">
+    <div className=" py-[6rem] max-w-[1200px] m-auto flex max-[480px]:flex-col max-[480px]:px-4 max-[480px]:pt-[2.4rem] max-[480px]:gap-y-[3rem] ">
+      <div className=" w-[55%] max-[480px]:w-full ">
+        <h1 className=" font-lexendDeca text-[4rem] font-[600] leading-[4.6rem] text-very-dark-blue max-[480px]:text-[2rem] ">
           {" "}
           Membership Plan{" "}
         </h1>
@@ -50,7 +50,7 @@ const MembershipPlan = () => {
           spectrum of benefits, from essential signals to advanced analytics and
           a thriving community.
         </p>
-        <div className=" flex flex-col gap-y-[2.4rem] mt-[2.6rem] w-[90%] mb-[3.6rem] ">
+        <div className=" flex flex-col gap-y-[2.4rem] mt-[2.6rem] w-[90%] mb-[3.6rem] max-[480px]:w-full ">
           {membershipList.map((data) => {
             return (
               <div
@@ -71,12 +71,12 @@ const MembershipPlan = () => {
           text="Join Now for $179 per Month"
         />
       </div>
-      <div className=" w-[40%] flex items-center justify-center relative ">
+      <div className=" w-[40%] flex items-center justify-center relative  max-[480px]:w-[90%]">
         <img src={phone} alt="phone" className=" w-[70%] z-10 " />
         <img
           src={swigglyLine}
           alt="swiggly_line"
-          className=" absolute left-[-1rem] bottom-[10rem] "
+          className=" absolute left-[-1rem] bottom-[10rem] max-[480px]:w-[60%] max-[480px]:left-[1rem] "
         />
         <img src={dots} alt="dots" className=" absolute right-4 " />
       </div>

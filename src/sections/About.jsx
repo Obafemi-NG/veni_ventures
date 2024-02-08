@@ -27,11 +27,11 @@ const About = () => {
     },
   ];
   return (
-    <div className=" py-[4rem] flex flex-col items-center max-w-[1200px] m-auto ">
-      <h1 className=" font-lexendDeca text-[3.2rem] font-[600] text-very-dark-blue leading-[4.7rem] mb-[2rem] ">
+    <div className=" py-[4rem] flex flex-col items-center max-w-[1200px] m-auto max-[480px]:px-4 ">
+      <h1 className=" font-lexendDeca text-[3.2rem] font-[600] text-very-dark-blue leading-[4.7rem] mb-[2rem] max-[480px]:hidden ">
         A Partner You Can Trust
       </h1>
-      <p className=" text-text-gray text-[1.125rem] text-center w-[70%] leading-[180%] mb-[4rem] ">
+      <p className=" text-text-gray text-[1.125rem] text-center w-[70%] leading-[180%] mb-[4rem] max-[480px]:hidden ">
         {" "}
         Prior to launching our global community, VDI has been working with a
         wide range of individual clients to help them achieve their financial
@@ -42,16 +42,16 @@ const About = () => {
         customized asset allocation and implementation plan.
       </p>
       <div className=" relative ">
-        <div className=" bg-dark-blue pt-[4.5rem] pb-[3rem] px-[5rem] w-[100%] rounded-[1.6rem] text-white flex justify-between  ">
+        <div className=" bg-dark-blue pt-[4.5rem] pb-[3rem] px-[5rem] w-[100%] rounded-[1.6rem] text-white flex justify-between max-[480px]:flex-col max-[480px]:px-[1.6rem] max-[480px]:gap-y-[1.8rem] ">
           {aboutData.map((data) => {
             return (
-              <div key={data.id} className=" w-[32%]   ">
+              <div key={data.id} className=" w-[32%] max-[480px]:w-full  ">
                 <img
                   src={data.iconUrl}
                   alt={data.heading}
                   className=" w-[3rem] "
                 />
-                <h3 className=" font-sora text-[1.3rem] font-[700] mt-[2.5rem] mb-[1.8rem] ">
+                <h3 className=" font-sora text-[1.3rem] font-[700] mt-[2.5rem] mb-[1.8rem] max-[480px]:mt-[1.5rem] ">
                   {" "}
                   {data.heading}{" "}
                 </h3>
@@ -66,7 +66,7 @@ const About = () => {
         <img
           src={blueBlackDrop}
           alt="blue_top_backdrop"
-          className=" absolute top-[-1rem] w-[80%] z-[-1] left-[50%] translate-x-[-50%] "
+          className=" absolute top-[-1rem] w-[80%] z-[-1] left-[50%] translate-x-[-50%] max-[480px]:w-[75%] "
         />
       </div>
     </div>

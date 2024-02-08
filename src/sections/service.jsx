@@ -42,7 +42,7 @@ const Service = () => {
       <h1 className=" font-lexend text-[2.5rem] font-[500] max-[480px]:text-[1.4rem] ">
         Empowering Your Every Trade
       </h1>
-      <div className=" flex gap-x-[3rem] border-t mt-[4rem] border-[gray] max-[480px]:flex-wrap max-[480px]:mt-[2rem] max-[480px]:border-l max-[480px]:border-t-0  max-[480px]:gap-y-[2rem] ">
+      <div className=" flex gap-x-[3rem] border-t mt-[4rem] border-[gray] max-[480px]:flex-wrap max-[480px]:mt-[2rem] max-[480px]:border-l max-[480px]:border-t-0 max-[480px]:[&>*:first-child]:border-l-[0.2rem] max-[480px]:[&>*:first-child]:border-l-light-blue max-[480px]:[&>*:first-child]:border-t-0  max-[480px]:gap-y-[2rem] [&>*:first-child]:border-t-[0.2rem] [&>*:first-child]:border-light-blue  ">
         {serviceData.map((data) => {
           return (
             <ServiceCard

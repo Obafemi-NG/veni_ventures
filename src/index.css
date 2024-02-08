@@ -18,3 +18,10 @@ body {
     scrollbar-width: none; /* Firefox */
   }
 }
+
+.gradient-text {
+  background: -webkit-linear-gradient(#01c0fe, #0481fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

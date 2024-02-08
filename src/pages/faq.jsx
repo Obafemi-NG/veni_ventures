@@ -97,8 +97,8 @@ const Faq = () => {
   return (
     <div>
       <ModifiedNavbar pageTitle="FAQs" />
-      <div className=" py-[4rem] max-w-[1200px] m-auto ">
-        <h1 className=" font-lexend text-[2.5rem] font-[500] mb-[5rem]  ">
+      <div className=" py-[4rem] max-w-[1200px] m-auto max-[480px]:px-4 ">
+        <h1 className=" font-lexend text-[2.5rem] font-[500] mb-[5rem] max-[480px]:text-[1.75rem]  ">
           {" "}
           Frequently Asked Questions{" "}
         </h1>
