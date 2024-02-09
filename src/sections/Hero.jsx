@@ -15,7 +15,7 @@ const Hero = () => {
           <div className=" translate-y-[10%] 2xl:translate-y-[50%] top-[-50%]  flex flex-row items-center max-[480px]:flex-col max-[480px]:gap-y[3rem] ">
             <div className=" max-[480px]:mb-[2rem]  ">
               <img src={heroLineSvg} alt="hero_line_svg" />
-              <h1 className="max-[480px]:text-[2.75rem] max-[480px]:w-[90%] font-sora text-[5.3rem] font-[600] w-[70%] text-white ">
+              <h1 className="max-[480px]:text-[2.75rem] max-[480px]:w-[90%] font-sora text-[5.3rem] font-[600] w-[70%] text-white pt-[3.2rem] leading-[106%] max-[480px]:leading-[3.2rem] max-[480px]:pt-[2.6rem] ">
                 {" "}
                 Money Talks, We{" "}
                 <span className="gradient-text"> Translate</span>{" "}

@@ -41,60 +41,60 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <ul className=" max-[480px]:hidden flex gap-x-[5rem] font-inter text-white h-full items-center  ">
-        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center  ">
+        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center hover:text-light-blue ">
           <NavLink
             to="/about-us"
             className={({ isActive }) =>
               isActive
-                ? "h-[100%] flex items-center justify-center border-b border-light-blue "
+                ? "h-[100%] flex items-center justify-center border-b border-light-blue text-light-blue"
                 : ""
             }
           >
             About{" "}
           </NavLink>
         </li>
-        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center ">
+        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center hover:text-light-blue ">
           <NavLink
             to="/services"
             className={({ isActive }) =>
               isActive
-                ? "  h-[100%] flex items-center justify-center border-b border-light-blue "
+                ? "  h-[100%] flex items-center justify-center border-b border-light-blue text-light-blue "
                 : ""
             }
           >
             Services
           </NavLink>
         </li>
-        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center  ">
+        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center hover:text-light-blue ">
           <NavLink
             to="/blog"
             className={({ isActive }) =>
               isActive
-                ? "h-[100%] flex items-center justify-center border-b border-light-blue "
+                ? "h-[100%] flex items-center justify-center border-b border-light-blue text-light-blue"
                 : ""
             }
           >
             Blog
           </NavLink>
         </li>
-        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center  ">
+        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center hover:text-light-blue ">
           <NavLink
             to="/testimonials"
             className={({ isActive }) =>
               isActive
-                ? "h-[100%] flex items-center justify-center border-b border-light-blue "
+                ? "h-[100%] flex items-center justify-center border-b border-light-blue text-light-blue"
                 : ""
             }
           >
             Testimonials
           </NavLink>
         </li>
-        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center  ">
+        <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer h-[100%] flex items-center justify-center hover:text-light-blue ">
           <NavLink
             to="/community"
             className={({ isActive }) =>
               isActive
-                ? " h-[100%] flex items-center justify-center border-b border-light-blue "
+                ? " h-[100%] flex items-center justify-center border-b border-light-blue text-light-blue"
                 : ""
             }
           >
@@ -125,7 +125,7 @@ const Navbar = () => {
             />
           </div>
           <ul className="flex flex-col gap-y-[5rem] font-inter text-white h-full items-center  ">
-            <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer  flex items-center justify-center  ">
+            <li className=" text-md text-blue font-archivo font-normal hover:cursor-pointer flex items-center justify-center  ">
               <NavLink
                 to="/about-us"
                 className={({ isActive }) =>
@@ -137,7 +137,7 @@ const Navbar = () => {
                 About{" "}
               </NavLink>
             </li>
-            <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer flex items-center justify-center ">
+            <li className=" text-md text-blue font-archivo font-normal hover:cursor-pointer flex items-center justify-center ">
               <NavLink
                 to="/services"
                 className={({ isActive }) =>
@@ -149,7 +149,7 @@ const Navbar = () => {
                 Services
               </NavLink>
             </li>
-            <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer  flex items-center justify-center  ">
+            <li className=" text-md text-blue font-archivo font-normal hover:cursor-pointer  flex items-center justify-center  ">
               <NavLink
                 to="/blog"
                 className={({ isActive }) =>
@@ -161,7 +161,7 @@ const Navbar = () => {
                 Blog
               </NavLink>
             </li>
-            <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer  flex items-center justify-center  ">
+            <li className=" text-md text-blue font-archivo font-normal hover:cursor-pointer  flex items-center justify-center  ">
               <NavLink
                 to="/testimonials"
                 className={({ isActive }) =>
@@ -173,7 +173,7 @@ const Navbar = () => {
                 Testimonials
               </NavLink>
             </li>
-            <li className=" text-md text-blue font-archivo font-normal hover:text-orange hover:cursor-pointer  flex items-center justify-center  ">
+            <li className=" text-md text-blue font-archivo font-normal hover:cursor-pointer  flex items-center justify-center  ">
               <NavLink
                 to="/community"
                 className={({ isActive }) =>

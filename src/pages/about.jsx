@@ -24,18 +24,18 @@ const About = () => {
         </h1>
         <p className=" text-text-gray text-center w-[90%] leading-[180%] max-[480px]:text-left max-[480px]:w-full">
           {" "}
-          Where "I came to learn" is not just a name but a philosophy ingrained
-          in our ethos. Knowledge, community, and superintendence form the
-          pillars of our commitment to empower you in the cryptocurrency market.
-          We are a decision support firm for cryptocurrency traders providing
-          precise signals and market insights. As a group, we've invested
-          countless hours in research and strategic planning, transcending the
-          challenges posed by market makers and whales. Enlightened with the
-          ability to assess investments and positions strategically, we don't
-          compete against financial giants; we align with them, providing you
-          with a gateway to walk alongside market leaders. Our success lies in
-          building a robust community, aimed at widening the knowledge of mass
-          retail and awakening those determined to succeed.
+          "I came to learn" is not just a name but a philosophy ingrained in our
+          ethos. Knowledge, community, and superintendence form the pillars of
+          our commitment to empower you in the cryptocurrency market. We are a
+          decision support firm for cryptocurrency traders providing precise
+          signals and market insights. As a group, we've invested countless
+          hours in research and strategic planning, transcending the challenges
+          posed by market makers and whales. Enlightened with the ability to
+          assess investments and positions strategically, we don't compete
+          against financial giants; we align with them, providing you with a
+          gateway to walk alongside market leaders. Our success lies in building
+          a robust community, aimed at widening the knowledge of mass retail and
+          awakening those determined to succeed.
         </p>
         <p className="text-text-gray text-center w-[90%] leading-[180%] max-[480px]:text-left max-[480px]:w-full ">
           Internationally diverse, our research group spans from Singapore to
@@ -49,7 +49,7 @@ const About = () => {
           power, and at Veni Discere, we're here to empower you on your
           financial journey.
         </p>
-        <div className=" mt-[1rem] flex flex-col items-center gap-y-[2.8rem] ">
+        <div className=" mt-[4rem] flex flex-col items-center gap-y-[2.8rem] max-[480px]:mt-[3rem] ">
           <div>
             <h1 className="font-lexendDeca text-[2.5rem] font-[600] text-center text-light-blue mb-[0.9rem] max-[480px]:text-[2rem] max-[480px]:font-[500] max-[480px]:mb-[0.5rem] ">
               {" "}

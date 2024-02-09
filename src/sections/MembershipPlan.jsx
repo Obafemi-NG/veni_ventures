@@ -1,8 +1,8 @@
 import React from "react";
 import bulletPoint from "../assets/icons/check_icon.svg";
-import phone from "../assets/images/phone.png";
 import swigglyLine from "../assets/icons/swiggly_arrow.svg";
 import dots from "../assets/icons/domino_icon.svg";
+import ipad from "../assets/images/hero_img.png";
 
 import CustomSolidBtn from "../components/UiComponents/CustomSolidBtn";
 
@@ -10,30 +10,34 @@ const MembershipPlan = () => {
   const membershipList = [
     {
       id: 1,
-      text: "Elevate your trading with x signals per day",
+      text: "Elevate your trading with our precision signals and expert guidance",
     },
     {
       id: 2,
-      text: "Real-time updates to keep you ahead of market movements. Community access for collaborative insights",
+      text: "Real-time updates to keep you ahead of market movements.",
     },
     {
       id: 3,
-      text: "Weekly/Monthly market analysis for comprehensive market understanding",
+      text: "Community access for collaborative insights",
     },
     {
       id: 4,
-      text: "Engage in polls to influence the selection of trading pairs for in-depth analysis",
+      text: "Weekly/monthly market analysis for comprehensive market understanding",
     },
     {
       id: 5,
-      text: "Access a wealth of educational content designed to arm you with the foresight you need to make informed decisions",
+      text: "Engage in polls to influence the selection of trading pairs for in-depth analysis",
     },
     {
       id: 6,
-      text: "24/7 support, ensuring assistance is always within reach",
+      text: "Access a wealth of educational content designed to arm you with the foresight you need to make informed decisions",
     },
     {
       id: 7,
+      text: "24/7 support, ensuring assistance is always within reach",
+    },
+    {
+      id: 8,
       text: "Unlock custom deep analysis for a tailored investment approach at $99",
     },
   ];
@@ -71,14 +75,18 @@ const MembershipPlan = () => {
           text="Join Now for $179 per Month"
         />
       </div>
-      <div className=" w-[40%] flex items-center justify-center relative  max-[480px]:w-[90%]">
-        <img src={phone} alt="phone" className=" w-[70%] z-10 " />
+      <div className=" w-[40%] flex items-center justify-center relative  max-[480px]:w-[90%] max-[480px]:mt-[2rem] ">
+        <img src={ipad} alt="phone" className=" w-[70%] z-10 " />
         <img
           src={swigglyLine}
           alt="swiggly_line"
-          className=" absolute left-[-1rem] bottom-[10rem] max-[480px]:w-[60%] max-[480px]:left-[1rem] "
+          className=" absolute left-[-1rem] bottom-[10rem] max-[480px]:w-[60%] max-[480px]:left-[1rem] max-[480px]:bottom-0 "
         />
-        <img src={dots} alt="dots" className=" absolute right-4 " />
+        <img
+          src={dots}
+          alt="dots"
+          className=" absolute right-4 max-[480px]:right-2 "
+        />
       </div>
     </div>
   );

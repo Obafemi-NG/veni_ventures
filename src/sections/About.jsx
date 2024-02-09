@@ -55,7 +55,7 @@ const About = () => {
                   {" "}
                   {data.heading}{" "}
                 </h3>
-                <p className=" text-text-gray text-[1rem] font-sora ">
+                <p className=" text-text-white text-[0.8rem] font-sora w-[95%] ">
                   {" "}
                   {data.text}{" "}
                 </p>

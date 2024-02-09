@@ -8,6 +8,7 @@ import { format } from "date-fns";
 
 const Blog = () => {
   const [blogPosts, setBlogPosts] = useState([]);
+  const [activeCategory, setActiveCategory] = useState("insights");
   useEffect(() => {
     client
       .fetch(
@@ -26,13 +27,35 @@ const Blog = () => {
           {" "}
           Categories{" "}
         </h1>
+        <div className=" flex gap-[2rem] mt-[1.6rem] ">
+          <button
+            onClick={() => setActiveCategory("insights")}
+            className={` py-[0.68rem] px-[1.4rem] text-[1.125rem] border-[0.1rem]  rounded-[0.4rem] font-lexendDeca ${
+              activeCategory === "insights"
+                ? ` bg-light-blue text-white border border-light-blue `
+                : `border-light-gray-backdrop text-light-gray-backdrop `
+            }`}
+          >
+            VDI Insights
+          </button>
+          <button
+            onClick={() => setActiveCategory("education")}
+            className={` py-[0.68rem] px-[1.4rem] text-[1.125rem] border-[0.1rem]  rounded-[0.4rem] font-lexendDeca ${
+              activeCategory === "education"
+                ? `bg-light-blue text-white border border-light-blue  `
+                : `border-light-gray-backdrop text-light-gray-backdrop`
+            }`}
+          >
+            Education
+          </button>
+        </div>
         <div className=" flex justify-center  ">
           <div className=" pt-[2.4rem] flex flex-wrap gap-x-[2rem] gap-y-[2.5rem]  ">
             {blogPosts.map((post) => {
               return (
                 <div
                   key={post.slug.current}
-                  className=" w-[30%] rounded-[1rem] bg-[#f8f8f8] pb-[1.4rem] max-[480px]:w-full "
+                  className=" w-[30%] rounded-[1rem] bg-[#f8f8f8] pb-[1.4rem] max-[480px]:w-full relative "
                 >
                   <div className=" w-[100%] h-[18rem] object-cover object-center ">
                     <img
@@ -59,6 +82,7 @@ const Blog = () => {
                     <p className=" text-[1rem] text-[#444f77] mt-[1rem] font-lexendDeca text-[400] ">
                       {`${post.body[0].children[0].text.substring(0, 70)}...`}
                     </p>
+                    {/* <div className=" mt-auto "> */}
                     <button className=" text-light-blue border border-[#efefef] flex items-center justify-center font-lexendDeca text-[1rem] py-[0.6rem] rounded-[0.5rem] bg-[#efefef] gap-[1rem] mt-[2rem] w-[100%] hover:bg-white hover:border hover:border-light-blue ">
                       Read More{" "}
                       <span className=" bg-light-blue p-[0.1rem] rounded-[50%] ">
@@ -70,6 +94,7 @@ const Blog = () => {
                         />{" "}
                       </span>
                     </button>
+                    {/* </div> */}
                   </div>
                 </div>
               );
